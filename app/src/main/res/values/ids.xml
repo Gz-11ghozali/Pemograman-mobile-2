@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="forgotPasswordTextView" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="registerTextView" type="id" />
+    <item name="imageView" type="id" />
+    <item name="registerButton" type="id" />
+    <item name="confirmPasswordEditText" type="id" />
+    <item name="loginTextView" type="id" />
+</resources>
