@@ -51,7 +51,7 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/breakfastButton"
+                android:id="@+id/sarapan"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_weight="1"
@@ -60,13 +60,13 @@
                 android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/mainButton"
+                android:id="@+id/menusate"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="#A4DE02"
-                android:text="Utama"
+                android:text="sate"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
@@ -127,7 +127,7 @@
 
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_height="80dp"
+                    android:layout_height="90dp"
                     android:layout_weight="1"
                     android:background="@drawable/sayuran" />
 
@@ -136,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center_vertical"
-                    android:text="Makanan Sayuran"
+                    android:text="Sayuran"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:padding="8dp" />
@@ -150,7 +150,7 @@
 
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_height="80dp"
+                    android:layout_height="90dp"
                     android:layout_weight="1"
                     android:background="@drawable/telor" />
 
