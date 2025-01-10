@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Gambar Utama -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/telordadar" />
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Manfaat Memakan Telur"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+        <!-- Garis Pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="8dp"
+            android:background="#FFD700" />
+
+        <!-- Penjelasan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Telur adalah salah satu sumber makanan bergizi yang memberikan banyak manfaat bagi kesehatan tubuh. Berikut adalah beberapa manfaat utama dari mengonsumsi telur:"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Daftar Manfaat -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="• Mengandung protein berkualitas tinggi yang mendukung pertumbuhan dan perbaikan jaringan tubuh.\n\n• Kaya akan vitamin D yang penting untuk kesehatan tulang.\n\n• Mengandung kolin yang baik untuk fungsi otak dan kesehatan hati.\n\n• Membantu meningkatkan kadar kolesterol baik (HDL).\n\n• Mudah dicerna dan dapat menjadi sumber energi instan."
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Langkah dan Penjelasan Tambahan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Untuk mendapatkan manfaat maksimal, konsumsilah telur yang dimasak dengan cara yang sehat, seperti direbus atau dikukus. Hindari menggoreng dengan terlalu banyak minyak untuk menjaga kandungan gizinya."
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</ScrollView>

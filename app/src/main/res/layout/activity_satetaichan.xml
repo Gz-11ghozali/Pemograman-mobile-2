@@ -11,15 +11,15 @@
         <ImageView
             android:id="@+id/imageViewRecipe"
             android:layout_width="match_parent"
-            android:layout_height="253dp"
+            android:layout_height="302dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/nasgor2" />
+            android:src="@drawable/taichansate" />
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nasi Goreng"
+            android:text="Sate Taichan"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -37,7 +37,12 @@
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• 2 piring nasi putih\n• 2 siung bawang putih, cincang halus\n• 3 siung bawang merah, iris tipis\n• 1 butir telur (opsional)..."
+            android:text="• 500 gram daging ayam fillet, potong dadu
+• 2 sdm air jeruk nipis
+• 1 sdt garam
+• 2 sdm minyak goreng untuk mengoles
+• 2 siung bawang putih, haluskan
+• 1 sdt merica bubuk"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 
@@ -45,7 +50,7 @@
             android:id="@+id/textViewStepsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Langkah-langkah Membuat Nasi Goreng:"
+            android:text="Langkah-Langkah Membuat Sate Taichan:"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -54,7 +59,12 @@
             android:id="@+id/textViewSteps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Panaskan wajan...\n2. Tumis bawang putih dan bawang merah...\n3. Masukkan telur..."
+            android:text="1. Lumuri daging ayam dengan air jeruk nipis dan garam, diamkan selama 15 menit.
+2. Tusuk daging ayam dengan tusuk sate.
+3. Panggang sate ayam di atas grill atau panggangan hingga matang dan berwarna kecoklatan. Olesi sate dengan minyak goreng sesekali.
+4. Tumis bawang putih dan merica bubuk hingga harum, lalu siramkan di atas sate.
+5. Sajikan sate taichan dengan sambal taichan dan nasi hangat.
+6. Sate taichan siap dinikmati."
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 

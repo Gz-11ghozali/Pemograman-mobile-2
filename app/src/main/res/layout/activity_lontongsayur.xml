@@ -11,15 +11,15 @@
         <ImageView
             android:id="@+id/imageViewRecipe"
             android:layout_width="match_parent"
-            android:layout_height="253dp"
+            android:layout_height="267dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/nasgor2" />
+            android:src="@drawable/loyur" />
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nasi Goreng"
+            android:text="Lontong Sayur"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -37,7 +37,18 @@
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• 2 piring nasi putih\n• 2 siung bawang putih, cincang halus\n• 3 siung bawang merah, iris tipis\n• 1 butir telur (opsional)..."
+            android:text="• Lontong siap saji
+• 200 gram labu siam, iris tipis
+• 100 gram kacang panjang, potong-potong
+• 2 lembar daun salam
+• 500 ml santan
+• 2 sdm minyak untuk menumis
+• 3 siung bawang putih, cincang halus
+• 5 siung bawang merah, iris tipis
+• 2 butir kemiri, haluskan
+• 1 sdm ebi, rendam dan haluskan
+• 1 sdt garam
+• Gula secukupnya"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 
@@ -45,7 +56,7 @@
             android:id="@+id/textViewStepsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Langkah-langkah Membuat Nasi Goreng:"
+            android:text="Langkah-Langkah Membuat Lontong Sayur:"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -54,7 +65,12 @@
             android:id="@+id/textViewSteps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Panaskan wajan...\n2. Tumis bawang putih dan bawang merah...\n3. Masukkan telur..."
+            android:text="1. Panaskan minyak di wajan, tumis bawang putih, bawang merah, kemiri, dan ebi hingga harum.
+2. Masukkan daun salam, labu siam, dan kacang panjang, aduk hingga layu.
+3. Tambahkan santan ke dalam wajan dan aduk rata.
+4. Masukkan garam dan gula, masak hingga sayur matang dan santan mendidih.
+5. Sajikan lontong di piring, tuangkan kuah sayur di atasnya.
+6. Lontong sayur siap dinikmati."
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 

@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Gambar Utama -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sayurannnnn" />
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Manfaat Makanan Sayuran"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+        <!-- Garis Pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="8dp"
+            android:background="#FFD700" />
+
+        <!-- Penjelasan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sayuran adalah salah satu makanan sehat yang penting untuk kesehatan tubuh. Berikut adalah beberapa manfaat utama dari mengonsumsi makanan berbahan sayuran:"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Daftar Manfaat -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="• Kaya akan vitamin dan mineral yang penting untuk fungsi tubuh.\n\n• Mengandung serat tinggi yang baik untuk pencernaan.\n\n• Membantu menurunkan risiko penyakit kronis seperti diabetes dan jantung.\n\n• Rendah kalori sehingga baik untuk menjaga berat badan.\n\n• Mengandung antioksidan yang melindungi tubuh dari radikal bebas."
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Langkah dan Penjelasan Tambahan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Untuk mendapatkan manfaat maksimal dari sayuran, pastikan untuk mengonsumsi berbagai jenis sayuran setiap hari. Memadukan sayuran hijau, merah, oranye, dan ungu dalam pola makan dapat membantu memenuhi kebutuhan gizi harian Anda."
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</ScrollView>

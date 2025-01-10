@@ -11,15 +11,15 @@
         <ImageView
             android:id="@+id/imageViewRecipe"
             android:layout_width="match_parent"
-            android:layout_height="253dp"
+            android:layout_height="286dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/nasgor2" />
+            android:src="@drawable/buburayam" />
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nasi Goreng"
+            android:text="Bubur Ayam"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -37,7 +37,13 @@
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• 2 piring nasi putih\n• 2 siung bawang putih, cincang halus\n• 3 siung bawang merah, iris tipis\n• 1 butir telur (opsional)..."
+            android:text="• 1 cangkir beras
+• 6 cangkir air atau kaldu ayam
+• 1 potong dada ayam, rebus dan suwir
+• Garam secukupnya
+• Daun bawang, iris halus (opsional)
+• Kecap manis dan sambal (opsional)
+• Kerupuk dan bawang goreng untuk topping"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 
@@ -45,7 +51,7 @@
             android:id="@+id/textViewStepsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Langkah-langkah Membuat Nasi Goreng:"
+            android:text="Langkah-Langkah Membuat Bubur Ayam:"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -54,7 +60,14 @@
             android:id="@+id/textViewSteps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Panaskan wajan...\n2. Tumis bawang putih dan bawang merah...\n3. Masukkan telur..."
+            android:text="1. Cuci bersih beras, lalu masak dengan air atau kaldu ayam hingga mendidih.
+2. Kecilkan api dan masak beras hingga menjadi bubur, sambil diaduk agar tidak gosong.
+3. Tambahkan garam secukupnya untuk rasa.
+4. Rebus dada ayam, lalu suwir halus.
+5. Sajikan bubur di mangkuk, tambahkan ayam suwir di atasnya.
+6. Hiasi dengan daun bawang, bawang goreng, dan kerupuk.
+7. Tambahkan kecap manis dan sambal sesuai selera.
+8. Bubur ayam siap dinikmati."
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 

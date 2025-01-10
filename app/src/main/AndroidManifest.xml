@@ -12,8 +12,76 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MRFood"
         tools:targetApi="31">
-
-        <!-- Aktivitas Sarapan -->
+        <activity
+            android:name=".satetaichan"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".sateodeng"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity> <!-- Existing activities -->
+        <activity
+            android:name=".lontongsayur"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".rotipanggang"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".buburayam"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".oatmeal"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".telurmatasapi"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".akun"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".telordadar"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".sayuran"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".sarapan"
             android:exported="false">
@@ -21,8 +89,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-        <!-- Aktivitas Utama (MainActivity) -->
         <activity
             android:name=".MainActivity"
             android:exported="false">
@@ -30,21 +96,19 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-        <!-- Aktivitas Login -->
         <activity
             android:name=".login"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Aktivitas Register -->
         <activity
             android:name=".register"
             android:exported="false">
@@ -52,8 +116,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-        <!-- Aktivitas Menusate -->
         <activity
             android:name=".menusate"
             android:exported="false">
@@ -61,8 +123,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-        <!-- Aktivitas Nasigoreng -->
         <activity
             android:name=".nasigoreng"
             android:exported="false">
@@ -70,7 +130,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
     </application>
 
 </manifest>
