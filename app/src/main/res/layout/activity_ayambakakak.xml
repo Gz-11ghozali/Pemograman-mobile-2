@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#6DC7C3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:radius="16dp">
+
+        <!-- Gambar Resep -->
+        <ImageView
+            android:id="@+id/imageViewRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bakakak"
+            />
+
+        <!-- Judul Resep -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Ayam Bakakak"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Judul Bahan-Bahan -->
+        <TextView
+            android:id="@+id/textViewIngredientsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Bahan-Bahan:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Daftar Bahan-Bahan -->
+        <TextView
+            android:id="@+id/textViewIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="• 1 ekor ayam utuh, belah tidak putus (dibelah bakakak)\n• 3 siung bawang putih\n• 5 siung bawang merah\n• 2 butir kemiri, sangrai\n• 1 ruas jahe\n• 1 ruas kunyit\n• 1 ruas lengkuas, memarkan\n• 2 lembar daun salam\n• 2 batang serai, memarkan\n• Garam dan gula secukupnya\n• 200 ml air kelapa atau air biasa\n• 2 sdm kecap manis\n• Minyak untuk menumis"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Judul Langkah-Langkah -->
+        <TextView
+            android:id="@+id/textViewStepsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Langkah-Langkah Membuat Ayam Bakakak:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Langkah-Langkah Membuat -->
+        <TextView
+            android:id="@+id/textViewSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="1. Haluskan bawang putih, bawang merah, kemiri, jahe, kunyit, dan garam.\n2. Tumis bumbu halus hingga harum. Masukkan lengkuas, daun salam, dan serai.\n3. Masukkan ayam yang sudah dibelah bakakak ke dalam tumisan bumbu.\n4. Tambahkan air kelapa dan kecap manis. Masak dengan api sedang hingga ayam empuk dan bumbu meresap.\n5. Angkat ayam, panggang di atas bara api atau oven sambil diolesi sisa bumbu hingga kecoklatan.\n6. Sajikan ayam bakakak dengan nasi hangat dan sambal."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+    </ScrollView>

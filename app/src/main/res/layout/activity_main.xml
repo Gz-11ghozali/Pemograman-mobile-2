@@ -2,14 +2,13 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#6DC7C3"
     android:padding="16dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Bagian Utama Layout -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,8 +33,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
-                    android:text="Nasi goreng"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
             </RelativeLayout>
@@ -61,6 +59,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:hint="Mau masak apa hari ini?"
+                    android:textColor="#000000"
+                    android:textColorHint="#555555"
                     android:paddingStart="8dp"
                     android:paddingEnd="12dp"
                     android:background="@android:color/transparent"
@@ -80,7 +80,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:backgroundTint="#A4DE02"
+                    android:backgroundTint="#004D40"
                     android:text="menu Sarapan"
                     android:textColor="#FFFFFF" />
 
@@ -90,12 +90,12 @@
                     android:layout_height="48dp"
                     android:layout_marginStart="8dp"
                     android:layout_weight="1"
-                    android:backgroundTint="#A4DE02"
-                    android:text="menu sate"
+                    android:backgroundTint="#004D40"
+                    android:text="menu masakan"
                     android:textColor="#FFFFFF" />
             </LinearLayout>
 
-            <!-- Menu Rekomendasi -->
+            <!-- Menu Rekomendasi (ubah jadi hitM) -->
             <TextView
                 android:id="@+id/recommendationTitle"
                 android:layout_width="match_parent"
@@ -129,7 +129,7 @@
                     android:src="@drawable/ayamkremes" />
             </LinearLayout>
 
-            <!-- Informasi Lain -->
+            <!-- Informasi Lain (ubah jadi hitM) -->
             <TextView
                 android:id="@+id/otherInfoTitle"
                 android:layout_width="match_parent"
@@ -168,7 +168,7 @@
                         android:layout_weight="1"
                         android:gravity="center_vertical"
                         android:paddingStart="16dp"
-                        android:text="Makanan Sayuran"
+                        android:text="Manfaat Makan Sayur"
                         android:textColor="#000000"
                         android:textSize="16sp" />
                 </LinearLayout>
@@ -212,5 +212,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:src="@drawable/user" />
+
     </RelativeLayout>
 </ScrollView>

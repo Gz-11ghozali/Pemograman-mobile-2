@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6DC7C3"
     android:padding="16dp">
 
     <LinearLayout
@@ -8,22 +11,36 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageViewRecipe"
+        <!-- Gambar dengan Radius -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="302dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/taichansate" />
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
 
+            <ImageView
+                android:id="@+id/imageViewRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/taichansate" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Judul -->
         <TextView
             android:id="@+id/textViewTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sate Taichan"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
 
+        <!-- Bahan-Bahan -->
         <TextView
             android:id="@+id/textViewIngredientsTitle"
             android:layout_width="wrap_content"
@@ -31,21 +48,21 @@
             android:text="Bahan-Bahan:"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
             android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• 500 gram daging ayam fillet, potong dadu
-• 2 sdm air jeruk nipis
-• 1 sdt garam
-• 2 sdm minyak goreng untuk mengoles
-• 2 siung bawang putih, haluskan
-• 1 sdt merica bubuk"
+            android:text="1.) 500 gram daging ayam fillet, potong dadu\n2.) 2 sdm air jeruk nipis\n3.) 1 sdt garam\n4.) 2 sdm minyak goreng untuk mengoles\n5.) 2 siung bawang putih, haluskan\n6.) 1 sdt merica bubuk"
             android:textSize="16sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
             android:layout_marginTop="8dp" />
 
+        <!-- Langkah-Langkah -->
         <TextView
             android:id="@+id/textViewStepsTitle"
             android:layout_width="wrap_content"
@@ -53,19 +70,18 @@
             android:text="Langkah-Langkah Membuat Sate Taichan:"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
             android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/textViewSteps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Lumuri daging ayam dengan air jeruk nipis dan garam, diamkan selama 15 menit.
-2. Tusuk daging ayam dengan tusuk sate.
-3. Panggang sate ayam di atas grill atau panggangan hingga matang dan berwarna kecoklatan. Olesi sate dengan minyak goreng sesekali.
-4. Tumis bawang putih dan merica bubuk hingga harum, lalu siramkan di atas sate.
-5. Sajikan sate taichan dengan sambal taichan dan nasi hangat.
-6. Sate taichan siap dinikmati."
+            android:text="1.) Lumuri daging ayam dengan air jeruk nipis dan garam, diamkan selama 15 menit.\n2.) Tusuk daging ayam dengan tusuk sate.\n3.) Panggang sate ayam di atas grill atau panggangan hingga matang dan berwarna kecoklatan. Olesi sate dengan minyak goreng sesekali.\n4.) Tumis bawang putih dan merica bubuk hingga harum, lalu siramkan di atas sate.\n5.) Sajikan sate taichan dengan sambal taichan dan nasi hangat.\n6.) Sate taichan siap dinikmati."
             android:textSize="16sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
             android:layout_marginTop="8dp" />
 
     </LinearLayout>

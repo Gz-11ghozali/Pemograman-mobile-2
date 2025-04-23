@@ -1,6 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6DC7C3"
     android:padding="16dp">
 
     <LinearLayout
@@ -17,12 +18,15 @@
 
         <TextView
             android:id="@+id/textViewTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sate Odeng"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
 
         <TextView
             android:id="@+id/textViewIngredientsTitle"
@@ -31,46 +35,81 @@
             android:text="Bahan-Bahan:"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• 500 gram odeng (sate ikan)
-• 2 sdm kecap manis
-• 2 sdm saus sambal
-• 1 sdm minyak untuk menumis
-• 2 siung bawang putih, cincang halus
-• 3 sdm kacang tanah goreng, haluskan
-• 1 sdt garam
-• 1 sdt gula merah, serut halus
-• 100 ml air matang
-• 2 batang daun bawang, iris tipis"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp" />
+            android:text="1.) 250 gram ikan giling (sesuai selera jenis ikannya)
+
+2.) 1 butir telur
+3.) 1 sdm tepung meizena
+4.) 3 sdm tepung terigu
+5.) 50 gram tepung kentang
+6.) 4 siung bawang putih (haluskan)
+7.) Kaldu jamur secukupnya
+8.) Merica bubuk secukupnya
+9.) Garam secukupnya"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp"/>
 
         <TextView
             android:id="@+id/textViewStepsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Langkah-Langkah Membuat Sate Odeng:"
+            android:text="Bahan-bahan kuah odeng:"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#000000"
+
             android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/textViewSteps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Tumis bawang putih dengan minyak hingga harum.
-2. Masukkan kecap manis, saus sambal, kacang tanah halus, garam, gula merah, dan air matang. Aduk hingga rata.
-3. Masak saus hingga agak mengental dan tercampur rata.
-4. Panggang sate odeng di atas bara api atau grill pan hingga matang, sambil sesekali diolesi dengan saus.
-5. Sajikan sate odeng dengan saus sambal kacang di atasnya.
-6. Sate odeng siap dinikmati."
+            android:textColor="#000000"
+
+            android:text="1.) 2 gelas air
+
+2.) 1 sdm kecap asin
+3.) 4 siung bawang putih
+4.) 1 sdm ebi kering
+5.) 1 sdm saus tiram
+6.) 2 batang daun bawang
+7.) 1 sdm kaldu jamur
+8.) Merica bubuk secukupnya"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/textViewIngredientsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+
+            android:text="Langkah-langkah membuat odeng:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+
+        <TextView
+            android:id="@+id/textViewSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:text="1.) . Buat adonan odeng dengan masukkan ikan giling, bawang putih halus, merica, garam, tepung maizena, tepung kentang, kaldu bubuk, dan tepung terigu. Aduk merata semua bahan hingga kalis
+2.) Bentuk adonan menjadi lembaran-lembaran, lalu digoreng menggunakan wajan anti lengket.
+3.) Jika sudah matang, potong odeng menjadi ukuran yang lebih kecil dan mudah dimakan. Bisa juga dengan melipat odeng dan ditusuk dengan tusuk sate membentuk spiral. Rendam dengan air panas supaya lebih mudah ditusuk.
+4.)  Buat kuah odeng dengan menumbuk halus bawang putih dan ebi, lalu ditumis. Lalu, tuang air hingga mendidih.
+5.)  Masukkan garam, merica, kecap asin, saus tiram, kaldu jamur, dan daun bawang iris.
+6.) Tambahkan odeng yang sudah ditusuk tadi. Bisa juga disajikan dengan meletakkan odeng di mangkuk lalu menuangkan kuah yang sudah matang."
+            android:textSize="16sp" />
 
     </LinearLayout>
 </ScrollView>

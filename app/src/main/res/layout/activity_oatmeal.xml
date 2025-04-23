@@ -1,6 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6DC7C3"
     android:padding="16dp">
 
     <LinearLayout
@@ -17,17 +18,22 @@
 
         <TextView
             android:id="@+id/textViewTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Oatmeal"
+            android:text="Oat Meal"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
 
         <TextView
             android:id="@+id/textViewIngredientsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+
             android:text="Bahan-Bahan:"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -37,10 +43,12 @@
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• 1/2 cangkir oatmeal instan
-• 1 cangkir susu atau air
-• 1 sdm madu atau gula (opsional)
-• Buah segar atau kering untuk topping (opsional)"
+            android:textColor="#000000"
+
+            android:text="1.) 1/2 cangkir oatmeal instan
+2.) 1 cangkir susu atau air
+3.) 1 sdm madu atau gula (opsional)
+4.) Buah segar atau kering untuk topping (opsional)"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 
@@ -48,6 +56,8 @@
             android:id="@+id/textViewStepsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+
             android:text="Langkah-Langkah Membuat Oatmeal:"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -57,12 +67,14 @@
             android:id="@+id/textViewSteps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Panaskan susu atau air di panci kecil hingga mendidih.
-2. Tambahkan oatmeal ke dalam panci, aduk rata.
-3. Masak selama 2-3 menit sambil terus diaduk hingga mengental.
-4. Angkat oatmeal dari panci dan tuang ke mangkuk.
-5. Tambahkan madu, gula, atau topping buah sesuai selera.
-6. Sajikan hangat."
+            android:textColor="#000000"
+
+            android:text="1.) Panaskan susu atau air di panci kecil hingga mendidih.
+2.) Tambahkan oatmeal ke dalam panci, aduk rata.
+3.) Masak selama 2-3 menit sambil terus diaduk hingga mengental.
+4.) Angkat oatmeal dari panci dan tuang ke mangkuk.
+5.) Tambahkan madu, gula, atau topping buah sesuai selera.
+6.) Sajikan hangat."
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 

@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MRFood"
         tools:targetApi="31">
+
+        <!-- Daftar activity yang sudah ada sebelumnya -->
         <activity
             android:name=".satetaichan"
             android:exported="false">
@@ -25,7 +27,7 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity> <!-- Existing activities -->
+        </activity>
         <activity
             android:name=".lontongsayur"
             android:exported="false">
@@ -102,10 +104,8 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -130,6 +130,44 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".ayambakakak"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".jusdetox"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".pastacarbonara"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".rendang"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <!-- Tambahan activity oporayam -->
+        <activity
+            android:name=".oporayam"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
     </application>
 
 </manifest>

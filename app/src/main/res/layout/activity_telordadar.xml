@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#6DC7C3"
     android:padding="16dp">
 
     <LinearLayout
@@ -9,57 +11,75 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Gambar Utama -->
-        <ImageView
+        <!-- Gambar dengan sudut membulat -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/telordadar" />
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/telordadar" />
+        </androidx.cardview.widget.CardView>
 
         <!-- Judul -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Manfaat Memakan Telur"
-            android:textSize="20sp"
+            android:text="Telur Dadar"
+            android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#000000"
-            android:gravity="center" />
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
 
-        <!-- Garis Pemisah -->
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="8dp"
-            android:background="#FFD700" />
-
-        <!-- Penjelasan -->
+        <!-- Bahan-Bahan -->
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/textViewIngredientsTitle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Telur adalah salah satu sumber makanan bergizi yang memberikan banyak manfaat bagi kesehatan tubuh. Berikut adalah beberapa manfaat utama dari mengonsumsi telur:"
-            android:textSize="16sp"
-            android:textColor="#000000" />
+            android:text="Bahan-Bahan:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp" />
 
-        <!-- Daftar Manfaat -->
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/textViewIngredients"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="• Mengandung protein berkualitas tinggi yang mendukung pertumbuhan dan perbaikan jaringan tubuh.\n\n• Kaya akan vitamin D yang penting untuk kesehatan tulang.\n\n• Mengandung kolin yang baik untuk fungsi otak dan kesehatan hati.\n\n• Membantu meningkatkan kadar kolesterol baik (HDL).\n\n• Mudah dicerna dan dapat menjadi sumber energi instan."
+            android:text="1.) 2 butir telur ayam\n2.) 2 batang daun bawang\n3.) Garam secukupnya"
             android:textSize="16sp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="8dp" />
 
-        <!-- Langkah dan Penjelasan Tambahan -->
+        <!-- Langkah-Langkah -->
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/textViewStepsTitle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Untuk mendapatkan manfaat maksimal, konsumsilah telur yang dimasak dengan cara yang sehat, seperti direbus atau dikukus. Hindari menggoreng dengan terlalu banyak minyak untuk menjaga kandungan gizinya."
-            android:textSize="16sp"
-            android:textColor="#000000" />
+            android:text="Langkah-Langkah Membuat Telur Dadar:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp" />
 
+        <TextView
+            android:id="@+id/textViewSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.) Iris tipis daun bawang.\n2.) Kocok lepas telur dan tambahkan sejumput garam. Kocok lagi.\n3.) Tambahkan daun bawang.\n4.) Goreng dengan sedikit minyak. Jika sudah kuning kecokelatan angkat dan tiriskan.\n5.) Telur dadar daun bawang siap disajikan."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="8dp" />
     </LinearLayout>
 </ScrollView>

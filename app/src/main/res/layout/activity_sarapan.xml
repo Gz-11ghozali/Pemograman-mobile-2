@@ -1,86 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#6DC7C3"
     tools:context=".MainActivity">
 
-    <!-- Header Bar -->
-    <LinearLayout
+    <!-- Header -->
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="#A4D35E"
+        android:layout_height="80dp"
+        android:background="#00897B"
         android:padding="16dp">
 
         <TextView
-            android:layout_width="0dp"
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_centerInParent="true"
             android:text="DAFTAR MENU SARAPAN"
-            android:textColor="@android:color/white"
+            android:textColor="#FFFFFF"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:gravity="center_vertical" />
-    </LinearLayout>
+            android:textStyle="bold" />
+    </RelativeLayout>
 
-    <!-- Grid Layout for Menu Items -->
+    <!-- Menu Items -->
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
         android:columnCount="2"
-        android:rowCount="3"
-        android:orientation="horizontal">
+        android:padding="16dp">
 
-        <!-- Nasi Goreng -->
+        <!-- Item Template -->
+        <!-- Contoh: Nasi Goreng -->
         <LinearLayout
             android:id="@+id/layoutNasiGoreng"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:orientation="vertical"
-            android:layout_margin="8dp">
+            android:gravity="center"
+            android:padding="8dp">
 
             <ImageView
-                android:id="@+id/imageViewRecipe"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/nasgorr" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nasi goreng"
-                android:gravity="center"
-                android:padding="8dp" />
+                android:text="Nasi Goreng"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Nasi Goreng"
+                android:backgroundTint="#00897B"
+                android:onClick="goToNasiGoreng"
+                android:layout_marginTop="8dp" />
         </LinearLayout>
 
         <!-- Telur Mata Sapi -->
         <LinearLayout
-            android:id="@+id/layoutTelurMatasapi"
+            android:id="@+id/layoutTelurMataSapi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:orientation="vertical"
-            android:layout_margin="8dp">
+            android:gravity="center"
+            android:padding="8dp">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/naslur" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Telur mata sapi"
-                android:gravity="center"
-                android:padding="8dp" />
+                android:text="Telur Mata Sapi"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Telur Mata Sapi"
+                android:backgroundTint="#00897B"
+                android:onClick="goToTelurMataSapi"
+                android:layout_marginTop="8dp" />
         </LinearLayout>
 
         <!-- Oatmeal -->
@@ -90,20 +107,30 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:orientation="vertical"
-            android:layout_margin="8dp">
+            android:gravity="center"
+            android:padding="8dp">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/oatmil" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Oatmeal"
-                android:gravity="center"
-                android:padding="8dp" />
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Oatmeal"
+                android:backgroundTint="#00897B"
+                android:onClick="goToOatmeal"
+                android:layout_marginTop="8dp" />
         </LinearLayout>
 
         <!-- Bubur Ayam -->
@@ -113,20 +140,30 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:orientation="vertical"
-            android:layout_margin="8dp">
+            android:gravity="center"
+            android:padding="8dp">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/buryam" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bubur ayam"
-                android:gravity="center"
-                android:padding="8dp" />
+                android:layout_marginTop="8dp"
+                android:text="Bubur Ayam"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Bubur Ayam"
+                android:backgroundTint="#00897B"
+                android:onClick="goToBuburAyam"
+                android:layout_marginTop="8dp" />
         </LinearLayout>
 
         <!-- Roti Panggang -->
@@ -136,20 +173,30 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:orientation="vertical"
-            android:layout_margin="8dp">
+            android:gravity="center"
+            android:padding="8dp">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/roti" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Roti panggang"
-                android:gravity="center"
-                android:padding="8dp" />
+                android:text="Roti Panggang"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Roti Panggang"
+                android:backgroundTint="#00897B"
+                android:onClick="goToRotiPanggang"
+                android:layout_marginTop="8dp" />
         </LinearLayout>
 
         <!-- Lontong Sayur -->
@@ -159,20 +206,31 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:orientation="vertical"
-            android:layout_margin="8dp">
+            android:gravity="center"
+            android:padding="8dp">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/lontong" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lontong sayur"
-                android:gravity="center"
-                android:padding="8dp" />
+                android:text="Lontong Sayur"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Lontong Sayur"
+                android:backgroundTint="#00897B"
+                android:onClick="goToLontongSayur"
+                android:layout_marginTop="8dp" />
         </LinearLayout>
+
     </GridLayout>
 </LinearLayout>

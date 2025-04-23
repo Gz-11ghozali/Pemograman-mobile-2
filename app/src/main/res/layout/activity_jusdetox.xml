@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#6DC7C3">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jus" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jus Detox"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+    <TextView
+            android:id="@+id/textViewIngredientsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:text="Bahan-Bahan:"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+            android:id="@+id/textViewIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.) 1 buah Mentimun
+2.) 5 lembar sawi
+3.) 1 buah wortel
+4.) 2 buah pisang (usahakan yang sudah benar-benar matang ya)
+5.) secukupnya Masukkan air"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/textViewStepsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:text="Langkah-Langkah Membuat Jus:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"/>
+
+    <TextView
+            android:id="@+id/textViewSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.) Potong semua bahan-bahan yang sudah di siapkan dan jangan lupa di cuci
+2.) Kemudian yang pertama masukkan wortel yang sudah di potong ke dalam blender nya 3.) Setelah wortelnya sudah hancur dan halus baru kemudian masukkan semua bahan-bahan yang sudah disiapkan tadi 4.) Teruslah kembali di blend."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"/>
+
+</LinearLayout>
+</ScrollView>

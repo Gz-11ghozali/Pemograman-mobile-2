@@ -1,75 +1,82 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#6DC7C3">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:radius="16dp"
+        android:elevation="4dp">
 
-        <ImageView
-            android:id="@+id/imageViewRecipe"
-            android:layout_width="match_parent"
-            android:layout_height="286dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/buburayam" />
+    <!-- Gambar Resep -->
+    <ImageView
+        android:id="@+id/imageViewRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/buburayam" />
 
-        <TextView
-            android:id="@+id/textViewTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bubur Ayam"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+    <!-- Judul Resep -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bubur Ayam"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"/>
 
-        <TextView
-            android:id="@+id/textViewIngredientsTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bahan-Bahan:"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+    <!-- Judul Bahan-Bahan -->
+    <TextView
+        android:id="@+id/textViewIngredientsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahan-Bahan:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"/>
 
-        <TextView
-            android:id="@+id/textViewIngredients"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="• 1 cangkir beras
-• 6 cangkir air atau kaldu ayam
-• 1 potong dada ayam, rebus dan suwir
-• Garam secukupnya
-• Daun bawang, iris halus (opsional)
-• Kecap manis dan sambal (opsional)
-• Kerupuk dan bawang goreng untuk topping"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp" />
+    <!-- Daftar Bahan-Bahan -->
+    <TextView
+        android:id="@+id/textViewIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• 1 cangkir beras\n• 6 cangkir air atau kaldu ayam\n• 1 potong dada ayam, rebus dan suwir\n• Garam secukupnya\n• Daun bawang, iris halus (opsional)\n• Kecap manis dan sambal (opsional)\n• Kerupuk dan bawang goreng untuk topping"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"/>
 
-        <TextView
-            android:id="@+id/textViewStepsTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Langkah-Langkah Membuat Bubur Ayam:"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+    <!-- Judul Langkah-Langkah -->
+    <TextView
+        android:id="@+id/textViewStepsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Langkah-Langkah Membuat Bubur Ayam:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"/>
 
-        <TextView
-            android:id="@+id/textViewSteps"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1. Cuci bersih beras, lalu masak dengan air atau kaldu ayam hingga mendidih.
-2. Kecilkan api dan masak beras hingga menjadi bubur, sambil diaduk agar tidak gosong.
-3. Tambahkan garam secukupnya untuk rasa.
-4. Rebus dada ayam, lalu suwir halus.
-5. Sajikan bubur di mangkuk, tambahkan ayam suwir di atasnya.
-6. Hiasi dengan daun bawang, bawang goreng, dan kerupuk.
-7. Tambahkan kecap manis dan sambal sesuai selera.
-8. Bubur ayam siap dinikmati."
-            android:textSize="16sp"
-            android:layout_marginTop="8dp" />
-
-    </LinearLayout>
-</ScrollView>
+    <!-- Langkah-Langkah Membuat -->
+    <TextView
+        android:id="@+id/textViewSteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Cuci bersih beras, lalu masak dengan air atau kaldu ayam hingga mendidih.\n2. Kecilkan api dan masak beras hingga menjadi bubur, sambil diaduk agar tidak gosong.\n3. Tambahkan garam secukupnya untuk rasa.\n4. Rebus dada ayam, lalu suwir halus.\n5. Sajikan bubur di mangkuk, tambahkan ayam suwir di atasnya.\n6. Hiasi dengan daun bawang, bawang goreng, dan kerupuk.\n7. Tambahkan kecap manis dan sambal sesuai selera.\n8. Bubur ayam siap dinikmati."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"/>
+</LinearLayout>
+    </ScrollView>

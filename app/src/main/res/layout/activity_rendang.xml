@@ -2,27 +2,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#6DC7C3"
-
     android:padding="16dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageViewRecipe"
             android:layout_width="match_parent"
-            android:layout_height="253dp"
+            android:layout_height="229dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/nasgor2" />
+            android:src="@drawable/rendang" />
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nasi Goreng"
+            android:text="Rendang"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#000000"
@@ -30,12 +28,12 @@
             android:gravity="center"
             android:layout_marginTop="8dp" />
 
+
         <TextView
             android:id="@+id/textViewIngredientsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-
             android:text="Bahan-Bahan:"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -46,8 +44,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-
-            android:text="• 2 piring nasi putih\n• 2 siung bawang putih, cincang halus\n• 3 siung bawang merah, iris tipis\n• 1 butir telur (opsional)..."
+            android:text="1.) 1 kg daging sapi bagian sengkel
+2.) 1200 ml santan cair
+3.) 250 ml santan kental
+4.) 2 buah cabai merah besar
+5.) 15 buah cabai merah keriting
+6.) siung bawang merah
+7.) siung bawang putih
+8.) butir kemiri
+9.) 4 cm jahe
+10.) 1/2 sdt kunyit bubuk
+11.) 1 sdm ketumbar bubuk
+12.) 1 sdt merica bubuk
+13.) 3 batang serai memarkan
+14.) 6 cm lengkuas memarkan
+15.) 2 lembar daun salam
+16.) 4 lembar daun jeruk
+17.) 1 sdm garam
+18.) 1 sdt gula
+19.) 1/4 sdt kaldu jamur"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 
@@ -57,7 +72,7 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
 
-            android:text="Langkah-langkah Membuat Nasi Goreng:"
+            android:text="Langkah-Langkah Membuat Roti Panggang:"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -68,19 +83,11 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
 
-            android:text="1.) Panaskan minyak dalam wajan secukupnya
-
-2.) Tumis bawang putih cincang dan bawang merah iris sampai harum dan berubah warna menjadi keemasan.
-
-3.) Jika menggunakan telur, pecahkan telur ke dalam wajan, orak-arik hingga matang.
-
-4.) Masukkan nasi putih ke dalam wajan, aduk rata dengan bumbu dan telur.
-
-5.) Tambahkan garam secukupnya. Jika suka, tambahkan sedikit kecap manis untuk warna dan rasa.
-
-6.) Aduk rata hingga nasi terasa panas dan bumbu meresap.
-
-7.) Koreksi rasa. Jika sudah pas, angkat dan sajikan."
+            android:text="1.) Potong-potong daging sapi menjadi 18 bagian
+            2.) Masukan ke dalam panci presto lalu masukan bumbu halus daun salam batang serai daun jeruk dan lengkuas
+            3.) Masukan garam gula kaldu jamur aduk rata
+            4.) Masukan santan cair aduk kembali lalu tutup panci presto masak selama 20 menit pada saat presto berbunyi. Matikan kompor dan biarkan dingin
+            5.) Jika panci presto sudah dingin buka tutup panci nyalakan kembali kompor masak hingga air santan sedikit menyusut sambil di aduk -aduk. Lalu tambahkan santan kental aduk rata. Dan masak hingga bumbu meresap Koreksi rasa dan sajikan."
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 

@@ -1,6 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6DC7C3"
     android:padding="16dp">
 
     <LinearLayout
@@ -17,12 +18,15 @@
 
         <TextView
             android:id="@+id/textViewTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roti Panggang"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
 
         <TextView
             android:id="@+id/textViewIngredientsTitle"
@@ -31,16 +35,16 @@
             android:text="Bahan-Bahan:"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• 2 lembar roti tawar
-• 1 sdm mentega
-• Selai cokelat, keju, atau topping sesuai selera"
+            android:text="• 2 lembar roti tawar\n• 1 sdm mentega\n• Selai cokelat, keju, atau topping sesuai selera"
             android:textSize="16sp"
+            android:textColor="#000000"
             android:layout_marginTop="8dp" />
 
         <TextView
@@ -50,19 +54,16 @@
             android:text="Langkah-Langkah Membuat Roti Panggang:"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#000000"
             android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/textViewSteps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Panaskan wajan datar atau toaster.
-2. Oleskan mentega pada kedua sisi roti tawar.
-3. Letakkan roti di wajan panas dan panggang hingga kedua sisi berwarna kecokelatan.
-4. Angkat roti dari wajan.
-5. Tambahkan selai cokelat, keju, atau topping lainnya sesuai selera.
-6. Sajikan selagi hangat."
+            android:text="1.) Panaskan wajan datar atau toaster.\n2.) Oleskan mentega pada kedua sisi roti tawar.\n3.) Letakkan roti di wajan panas dan panggang hingga kedua sisi berwarna kecokelatan.\n4.) Angkat roti dari wajan.\n5.) Tambahkan selai cokelat, keju, atau topping lainnya sesuai selera.\n6.) Sajikan selagi hangat."
             android:textSize="16sp"
+            android:textColor="#000000"
             android:layout_marginTop="8dp" />
 
     </LinearLayout>

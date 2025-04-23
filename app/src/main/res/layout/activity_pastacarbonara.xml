@@ -8,21 +8,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageViewRecipe"
             android:layout_width="match_parent"
-            android:layout_height="253dp"
+            android:layout_height="229dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/nasgor2" />
+            android:src="@drawable/pastacarbonara" />
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nasi Goreng"
+            android:text="Pasta Carbonara"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#000000"
@@ -35,7 +34,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-
             android:text="Bahan-Bahan:"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -47,7 +45,19 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
 
-            android:text="• 2 piring nasi putih\n• 2 siung bawang putih, cincang halus\n• 3 siung bawang merah, iris tipis\n• 1 butir telur (opsional)..."
+            android:text="1.) 1/2 bungkus pasta spaghetti
+2.) 1 siung bawang putih
+3.) Butter atau margarin untuk menumis
+4.) 275 mililiter susu cair putih
+5.) 1 bonggol bawang bombai ukuran sedang
+6.) Garam
+7.) 1/2 sdt merica bubuk
+8.) 5 lembar smoked beef
+9.) 1 sdm keju parmesan
+10.) 30 gram keju cheddar parut
+11.) 1 sdm tepung terigu
+12.) Parsley atau oregano
+13.) Air untuk merebus"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 
@@ -57,7 +67,7 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
 
-            android:text="Langkah-langkah Membuat Nasi Goreng:"
+            android:text="Langkah-Langkah Membuat Roti Panggang:"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp" />
@@ -68,19 +78,12 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
 
-            android:text="1.) Panaskan minyak dalam wajan secukupnya
-
-2.) Tumis bawang putih cincang dan bawang merah iris sampai harum dan berubah warna menjadi keemasan.
-
-3.) Jika menggunakan telur, pecahkan telur ke dalam wajan, orak-arik hingga matang.
-
-4.) Masukkan nasi putih ke dalam wajan, aduk rata dengan bumbu dan telur.
-
-5.) Tambahkan garam secukupnya. Jika suka, tambahkan sedikit kecap manis untuk warna dan rasa.
-
-6.) Aduk rata hingga nasi terasa panas dan bumbu meresap.
-
-7.) Koreksi rasa. Jika sudah pas, angkat dan sajikan."
+            android:text="1.) Didihkan air lebih dahulu, beri sedikit garam dan minyak. Lalu masukkan spaghetti. Masak sampai al dente lau tiriskan.
+2.) Lelehkan margarin atau butter, tumis bawang putih dan bombai yang sudah kamu rajang halus. Masukkan smoked beef, tumis hingga harum.
+3.) Tambahkan susu, keju parut, garam dan merica.
+4.) Setelah susu mendidih masukkan tepung dan aduk cepat.
+5.) Masukkan pasta ke dalam saus, aduk dengan api sebentar hingga saus meresap dan tidak berkuah lagi.
+6.) Spaghetti carbonara siap dihidangkan.."
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
 

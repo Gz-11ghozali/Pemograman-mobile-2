@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#6DC7C3"
     android:padding="16dp">
 
     <LinearLayout
@@ -9,23 +11,32 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Gambar Utama -->
-        <ImageView
+        <!-- Gambar Utama dengan Radius -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/sayurannnnn" />
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sayurannnnn" />
+        </androidx.cardview.widget.CardView>
 
         <!-- Judul -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Manfaat Makanan Sayuran"
-            android:textSize="20sp"
+            android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#000000"
-            android:gravity="center" />
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
 
         <!-- Garis Pemisah -->
         <View
@@ -38,28 +49,31 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Sayuran adalah salah satu makanan sehat yang penting untuk kesehatan tubuh. Berikut adalah beberapa manfaat utama dari mengonsumsi makanan berbahan sayuran:"
             android:textSize="16sp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp" />
 
         <!-- Daftar Manfaat -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:text="• Kaya akan vitamin dan mineral yang penting untuk fungsi tubuh.\n\n• Mengandung serat tinggi yang baik untuk pencernaan.\n\n• Membantu menurunkan risiko penyakit kronis seperti diabetes dan jantung.\n\n• Rendah kalori sehingga baik untuk menjaga berat badan.\n\n• Mengandung antioksidan yang melindungi tubuh dari radikal bebas."
             android:textSize="16sp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="8dp" />
 
-        <!-- Langkah dan Penjelasan Tambahan -->
+        <!-- Penutup -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Untuk mendapatkan manfaat maksimal dari sayuran, pastikan untuk mengonsumsi berbagai jenis sayuran setiap hari. Memadukan sayuran hijau, merah, oranye, dan ungu dalam pola makan dapat membantu memenuhi kebutuhan gizi harian Anda."
             android:textSize="16sp"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp" />
 
     </LinearLayout>
 </ScrollView>

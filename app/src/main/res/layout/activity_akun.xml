@@ -2,58 +2,65 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:background="@drawable/bgakun"
+    android:padding="24dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:paddingBottom="32dp">
 
-        <!-- Profile Picture -->
+        <!-- Foto Profil -->
         <RelativeLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="24dp">
 
             <ImageView
                 android:id="@+id/profile_image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:src="@drawable/ikonchef"
                 android:scaleType="centerCrop"
-                android:background="@drawable/bgprofile" />
+                android:background="@drawable/bgprofile"
+                android:layout_centerInParent="true"
+                android:padding="4dp" />
 
+            <!-- Tombol Edit -->
             <ImageView
                 android:id="@+id/edit_icon"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
                 android:src="@drawable/edit"
-                android:padding="4dp" />
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:padding="6dp"
+                android:elevation="4dp" />
         </RelativeLayout>
 
-        <!-- Personal Details -->
+        <!-- Nama Pengguna -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Mr chef"
-            android:textSize="18sp"
+            android:text="Mr. Chef"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black" />
 
-        <!-- Email Address -->
+        <!-- Email -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="32dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email Address"
+                android:text="Email"
                 android:textSize="14sp"
                 android:textColor="@color/black" />
 
@@ -65,15 +72,17 @@
                 android:text="mrchef77@gmail.com"
                 android:inputType="textEmailAddress"
                 android:background="@drawable/txtbg"
-                android:padding="12dp" />
+                android:padding="14dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <!-- Password -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -89,7 +98,9 @@
                 android:hint="********"
                 android:inputType="textPassword"
                 android:background="@drawable/txtbg"
-                android:padding="12dp" />
+                android:padding="14dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
         </LinearLayout>
 
     </LinearLayout>

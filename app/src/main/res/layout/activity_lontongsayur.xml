@@ -1,7 +1,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#6DC7C3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,26 +18,33 @@
 
         <TextView
             android:id="@+id/textViewTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lontong Sayur"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
 
         <TextView
             android:id="@+id/textViewIngredientsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bahan-Bahan:"
-            android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+
+            android:text="Bahan-Bahan:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"/>
 
         <TextView
             android:id="@+id/textViewIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:text="• Lontong siap saji
 • 200 gram labu siam, iris tipis
 • 100 gram kacang panjang, potong-potong
@@ -50,16 +58,21 @@
 • 1 sdt garam
 • Gula secukupnya"
             android:textSize="16sp"
-            android:layout_marginTop="8dp" />
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"/>
 
         <TextView
             android:id="@+id/textViewStepsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Langkah-Langkah Membuat Lontong Sayur:"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp" />
+
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"/>
 
         <TextView
             android:id="@+id/textViewSteps"
@@ -72,7 +85,9 @@
 5. Sajikan lontong di piring, tuangkan kuah sayur di atasnya.
 6. Lontong sayur siap dinikmati."
             android:textSize="16sp"
-            android:layout_marginTop="8dp" />
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"/>
 
     </LinearLayout>
 </ScrollView>

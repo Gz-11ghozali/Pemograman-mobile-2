@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:background="#6DC7C3"
     tools:context=".menusate">
 
     <!-- Header -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#A7E28D"
+        android:background="#00897B"
         android:padding="16dp">
 
         <TextView
@@ -19,11 +19,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="DAFTAR MENU SATE"
-            android:textColor="#000000"
+            android:text="DAFTAR MENU MASAKAN"
+            android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
     <!-- Content -->
@@ -32,9 +31,9 @@
         android:layout_height="wrap_content"
         android:columnCount="2"
         android:padding="16dp"
-        android:rowCount="2">
+        android:rowCount="3">
 
-        <!-- Item 1 (Sate Odeng) -->
+        <!-- Item 1: Odeng -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -44,31 +43,29 @@
             android:padding="8dp">
 
             <ImageView
-                android:id="@+id/item1Image"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/odeng" />
 
             <TextView
-                android:id="@+id/item1Name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Sate Odeng"
-                android:textColor="#000000"
+                android:text="Odeng"
+                android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
             <Button
-                android:id="@+id/buttonSateodeng"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lihat Sate Odeng"
+                android:text="Lihat Odeng"
+                android:backgroundTint="#00897B"
                 android:onClick="goToSateodeng"
                 android:layout_marginTop="8dp"/>
         </LinearLayout>
 
-        <!-- Item 2 (Sate Taichan) -->
+        <!-- Item 2: Sate Taichan -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -78,40 +75,155 @@
             android:padding="8dp">
 
             <ImageView
-                android:id="@+id/item2Image"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/satetaichan" />
 
             <TextView
-                android:id="@+id/item2Name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Sate Taichan"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="16sp" />
 
             <Button
-                android:id="@+id/buttonSatetaichan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lihat Sate Taichan"
+                android:backgroundTint="#00897B"
                 android:onClick="goToSatetaichan"
                 android:layout_marginTop="8dp"/>
         </LinearLayout>
 
-        <!-- Item 3 (Optional) -->
+        <!-- Item 3: Rendang Sapi -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:layout_gravity="center"
             android:gravity="center"
             android:orientation="vertical"
             android:padding="8dp">
 
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rendang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Rendang Sapi"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Rendang Sapi"
+                android:backgroundTint="#00897B"
+                android:onClick="goToRendangSapi"
+                android:layout_marginTop="8dp"/>
         </LinearLayout>
+
+        <!-- Item 4: Opor Ayam -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/oporayam" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Opor Ayam"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Opor Ayam"
+                android:backgroundTint="#00897B"
+                android:onClick="goToOporAyam"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Item 5: Pasta Carbonara -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pastacarbonara" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Pasta Carbonara"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Pasta Carbonara"
+                android:backgroundTint="#00897B"
+                android:onClick="goToPastaCarbonara"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Item 6: Bakakak -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bakakak" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Bakakak"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat ayam Bakakak"
+                android:backgroundTint="#00897B"
+                android:onClick="goToBakakak"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
     </GridLayout>
 </LinearLayout>
