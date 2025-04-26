@@ -46,7 +46,15 @@ Deskripsi singkat tentang makanan tersebut
 Daftar bahan-bahan yang digunakan
 Langkah-langkah pembuatan makanan
 Tombol Kembali: Ikon panah di bagian bawah untuk kembali ke daftar menu
+
 STORY BOARD
-![image](https://github.com/user-attachments/assets/be859327-fd2f-40d9-8d8a-9353ea3963e3)
+
+![WhatsApp Image 2025-04-25 at 21 14 07](https://github.com/user-attachments/assets/d99ca973-4f58-48fa-9c3b-b3b438d1c938)
+
+DESIGN
+
+![WhatsApp Image 2025-04-25 at 21 13 21](https://github.com/user-attachments/assets/a56d6139-3901-4a0a-92f4-c752af280549)
+
+
 
 
